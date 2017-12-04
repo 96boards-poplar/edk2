@@ -120,7 +120,7 @@ STATIC GET_CONFIG_DESCRIPTOR_RESPONSE mGetConfigDescriptorResponse = {
   { // STATIC USB_ENDPOINT_DESCRIPTOR (Out Endpoint)
     sizeof (USB_ENDPOINT_DESCRIPTOR),                 //Length;
     USB_DESC_TYPE_ENDPOINT,                           //DescriptorType;
-    1,                                                //EndpointAddress;
+    2,                                                //EndpointAddress;
     0x2,                                              //Attributes;
     MAX_PACKET_SIZE_BULK,                             //MaxPacketSize;
     16                                                //Interval;
